@@ -29,7 +29,7 @@ From those observations, StockSage can surface:
 - a compact price/stock history; and
 - a short SageSignal that explains whether the user should buy, wait, or monitor.
 
-The current hackathon build stores history privately in the user's browser and supports manual refreshes. Scheduled cloud checks and external notifications are the next production milestone.
+The current hackathon build stores history privately in the user's browser, supports manual refreshes, auto-checks every 15 minutes while the dashboard is open, and can deliver opt-in browser notifications. Scheduled cloud checks while the page is closed and external messaging channels are the next production milestone.
 
 ## How we built it
 
