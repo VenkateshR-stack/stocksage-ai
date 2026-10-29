@@ -18,6 +18,8 @@ Hackathon materials: [Devpost draft](DEVPOST_SUBMISSION.md) · [demo script](DEM
 - Store a private price/stock timeline in browser local storage.
 - Detect price drops, target hits, out-of-stock changes, and restocks.
 - Show when a product was last observed in stock.
+- Auto-check live products every 15 minutes while the dashboard is open.
+- Send opt-in browser notifications for meaningful price and stock changes.
 - Remain useful in demo mode before the Nebius secret is connected.
 
 ## Runtime flow
@@ -59,7 +61,7 @@ Retailers can block automated requests or render product data only after browser
 
 ## Roadmap
 
-- Durable cloud history and scheduled background checks
+- Durable cloud history and scheduled checks while the dashboard is closed
 - Email, WhatsApp, Telegram, and browser-push delivery
 - Cross-store matching for the same product
 - Coupon, shipping, bank-offer, and per-unit price comparison
